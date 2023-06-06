@@ -4,7 +4,7 @@
 
 **URL:** https://rapidapi.com/zilinskivan/api/text-to-speech-tts-engine
 
-**Demo (EN):** <a href="https://20fix.com/xtts/1288585753.mp3" target="_blank">Demo</a>
+**Demo (EN):** https://20fix.com/xtts/1288585753.mp3
 
 **Languages Supported:** ru, en, de, fr, es, it, nl, zh
 
