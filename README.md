@@ -13,7 +13,7 @@
 **- HTTP:**
 
 <pre>GET /?t=Here%20is%20a%20text%20to%20be%20converted.&l=en HTTP/1.1
-X-Rapidapi-Key: adf56d3d92msh6f2ab5216f14a0cp1b8366jsn5513c856eff7
+X-Rapidapi-Key: Your Key
 X-Rapidapi-Host: text-to-speech-tts-engine.p.rapidapi.com
 Host: text-to-speech-tts-engine.p.rapidapi.com</pre>
 
@@ -30,7 +30,7 @@ const options = {
     l: 'en'
   },
   headers: {
-    'X-RapidAPI-Key': 'adf56d3d92msh6f2ab5216f14a0cp1b8366jsn5513c856eff7',
+    'X-RapidAPI-Key': 'Your Key',
     'X-RapidAPI-Host': 'text-to-speech-tts-engine.p.rapidapi.com'
   }
 };
@@ -58,7 +58,7 @@ xhr.addEventListener('readystatechange', function () {
 });
 
 xhr.open('GET', 'https://text-to-speech-tts-engine.p.rapidapi.com/?t=Here%20is%20a%20text%20to%20be%20converted.&l=en');
-xhr.setRequestHeader('X-RapidAPI-Key', 'adf56d3d92msh6f2ab5216f14a0cp1b8366jsn5513c856eff7');
+xhr.setRequestHeader('X-RapidAPI-Key', 'Your Key');
 xhr.setRequestHeader('X-RapidAPI-Host', 'text-to-speech-tts-engine.p.rapidapi.com');
 
 xhr.send(data);
@@ -81,7 +81,7 @@ func main() {
 
 	req, _ := http.NewRequest("GET", url, nil)
 
-	req.Header.Add("X-RapidAPI-Key", "adf56d3d92msh6f2ab5216f14a0cp1b8366jsn5513c856eff7")
+	req.Header.Add("X-RapidAPI-Key", "Your Key")
 	req.Header.Add("X-RapidAPI-Host", "text-to-speech-tts-engine.p.rapidapi.com")
 
 	res, _ := http.DefaultClient.Do(req)
@@ -112,7 +112,7 @@ curl_setopt_array($curl, [
 	CURLOPT_CUSTOMREQUEST => "GET",
 	CURLOPT_HTTPHEADER => [
 		"X-RapidAPI-Host: text-to-speech-tts-engine.p.rapidapi.com",
-		"X-RapidAPI-Key: adf56d3d92msh6f2ab5216f14a0cp1b8366jsn5513c856eff7"
+		"X-RapidAPI-Key: Your Key"
 	],
 ]);
 
